@@ -1,7 +1,7 @@
 # Prerequisites
-1)Node.js and npm installed
-2)A MongoDB URI (from MongoDB Atlas or a local instance)
-3)MongoDB Compass installed
+1) Node.js and npm installed
+2) A MongoDB URI (from MongoDB Atlas or a local instance)
+3) MongoDB Compass installed
 
 # Steps To Run:
 1) cd /path/to/your/project in cmd
@@ -12,7 +12,7 @@
 
 # Output:
 Server started on port 5000
-MongoDB connected""
+MongoDB connected
 
 # Next Step:
 then run these forms and check the output in the Wesite as the visa and passport applications are shown there as well and in MongoDB Compass Database
