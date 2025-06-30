@@ -1,0 +1,19 @@
+
+.hero {
+  background-image: url('hero-bg.jpg'); 
+  background-size: cover;
+  background-position: center;
+}
+
+.card-body i {
+  font-size: 4rem;
+}
+
+.was-validated .form-control:invalid {
+  border-color: #dc3545;
+}
+
+img{
+  padding-top: 10px;
+  padding-bottom: 10px;
+}

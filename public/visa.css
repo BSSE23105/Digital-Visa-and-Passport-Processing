@@ -1,0 +1,76 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f4fbf5;
+    color: #2d3b30;
+  }
+  
+  .navbar-dark .navbar-brand {
+    font-weight: 500;
+  }
+  
+  .container.my-5 {
+    max-width: 700px;
+  }
+  
+  .card {
+    border: none;
+    border-radius: 1rem;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.04);
+    overflow: hidden;
+  }
+  
+  .card-header {
+    background-color: #28a745; /* visa green */
+    color: #fff;
+    padding: 1.25rem 1.5rem;
+    display: flex;
+    align-items: center;
+  }
+  .card-header i.bi {
+    font-size: 1.6rem;
+    margin-right: 0.5rem;
+  }
+  
+  .form-label {
+    font-weight: 500;
+    margin-bottom: 0.25rem;
+  }
+  
+  .form-control,
+  .form-select,
+  textarea.form-control {
+    border-radius: 0.5rem;
+    border: 1px solid #c9e7d7;
+    transition: border-color 0.3s, box-shadow 0.3s;
+  }
+  
+  .form-control:focus,
+  .form-select:focus,
+  textarea.form-control:focus {
+    border-color: #1f7f34;
+    box-shadow: 0 0 0 0.2rem rgba(31, 127, 52, 0.25);
+  }
+  
+  /* === Button === */
+  .btn-success {
+    background: linear-gradient(135deg, #28a745, #1e7e34);
+    border: none;
+    font-weight: 500;
+    border-radius: 0.75rem;
+    padding: 0.75rem;
+    transition: transform 0.1s, background 0.3s;
+  }
+  
+  .btn-success:hover {
+    background: linear-gradient(135deg, #1e7e34, #155724);
+    transform: translateY(-2px);
+  }
+  
+  .btn-success:active {
+    transform: scale(0.97);
+  }
+  
+  /* Responsive  */
+  @media (max-width: 576px) {
+    .card-header h3 { font-size: 1.25rem; }
+  }
